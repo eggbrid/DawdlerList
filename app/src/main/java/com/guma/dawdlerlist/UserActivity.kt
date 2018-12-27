@@ -2,15 +2,7 @@ package com.guma.dawdlerlist
 
 import android.app.Activity
 import android.os.Bundle
-import com.guma.dawdlerlist.comment.CallBack
-import com.guma.dawdlerlist.mvp.model.User
 import com.guma.dawdlerlist.mvp.persenter.UserPersonter
-import com.guma.dawdlerlist.mvp.persenter.UserPersonterImpl
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-
-import java.io.IOException
 
 /**
  * @Description:
@@ -26,8 +18,6 @@ class UserActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        userPersonter = UserPersonterImpl()
-        (userPersonter as UserPersonterImpl).getPersonalListInfo(1) { }
 
-    }
+}
 }

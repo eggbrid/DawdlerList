@@ -1,10 +1,9 @@
 package com.guma.dawdlerlist.mvp.persenter
 
-import com.guma.dawdlerlist.comment.BasePersonter
+import com.guma.dawdlerlist.comment.BasePresenter
 import com.guma.dawdlerlist.comment.CallBack
 import com.guma.dawdlerlist.mvp.model.User
 import retrofit2.Call
-import retrofit2.Callback
 import retrofit2.Response
 
 /**
@@ -16,7 +15,7 @@ import retrofit2.Response
  * @LastChekedBy: 王旭
  * @needingAttention(注意事项):
  */
-class UserPersonterImpl : BasePersonter<UserPersonter>(), UserPersonter {
+class UserPresenterImpl : BasePresenter<UserPersonter>(), UserPersonter {
 
 
     override fun getPersonalListInfo(page: Int, call: CallBack<User>): Call<Response<String>> {

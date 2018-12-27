@@ -5,33 +5,35 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_camera"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="Import"/>
+                android:id="@+id/navHome"
+                android:checked="true"
+                android:icon="@drawable/ic_home_black_"
+                android:title="首页"/>
         <item
-                android:id="@+id/nav_gallery"
-                android:icon="@drawable/ic_menu_gallery"
-                android:title="Gallery"/>
+                android:id="@+id/navDescription"
+                android:icon="@drawable/ic_description_black_"
+                android:title="我的任务记录"/>
         <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="Slideshow"/>
-        <item
-                android:id="@+id/nav_manage"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Tools"/>
+                android:id="@+id/navLoyalty"
+                android:icon="@drawable/ic_loyalty_black_"
+                android:title="我的成就"/>
+
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="程序">
         <menu>
             <item
-                    android:id="@+id/nav_share"
-                    android:icon="@drawable/ic_menu_share"
-                    android:title="Share"/>
+                    android:id="@+id/navShare"
+                    android:icon="@drawable/ic_share_black_"
+                    android:title="分享"/>
             <item
-                    android:id="@+id/nav_send"
-                    android:icon="@drawable/ic_menu_send"
-                    android:title="Send"/>
+                    android:id="@+id/navAbout"
+                    android:icon="@drawable/ic_about_black_"
+                    android:title="关于我们"/>
+            <item
+                    android:id="@+id/navSettings"
+                    android:icon="@drawable/ic_settings_black_"
+                    android:title="设置"/>
         </menu>
     </item>
 
